@@ -36,15 +36,6 @@ O bază de date populară.
 The Movie Database oferă un API puternic, bogat în funcționalități. De la ei vom lua filmele și tot
 ce ne interesează despre filme.
 
----
-
-### Q: E necesar să folosesc toate aceste instrumente?
-
-A: Nu e necesar, sunt doar alegerea mea. Te invit să înlocuiești oricare din ele după bun plac. E un
-exercițiu bun să faci același proiect cu tehnologii diferite.
-
-## Arhitectura aplicației
-
 ### Problema
 
 Utilizatorul dorește să privească un film și are nevoie de ajutor să aleagă filmul potrivit.
