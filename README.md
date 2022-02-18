@@ -2,27 +2,9 @@
 
 ![movie.png](./docs/movie.png)
 
-## Primii pași
-
-1. Fork la acest repo
-2. `git clone` la forkul nou creat (nu acest repo)
-3. `npm install` pentru a descărca toate dependențele necesare
-4. Creează un branch nou `project` din `main` și lucrează pe el
-5. Oferă-mi access la fork, de pe GitHub `settings/access`, invită un colaborator, caută
-   `victor@locoman.ro`
-6. Adaugă 2-3 colegi la colaboratori ca să vă ajutați reciproc prin feedback la cod/soluție
-7. Copiază fișierul `.env.example` în `.env.local` și completează-l
-
-## Rularea proiectului
-
-1. rulează instrucțiunea `npm run dev` - va porni serverul local
-2. intră pe http://localhost:3000/, ar trebui să vezi mesajul "Moviebase is up and running"
-
 ## Tehnologii folosite
 
 ### [next.js](https://nextjs.org/docs/getting-started)
-
-Este serverul nostru și are grijă ca partea de React să se încarce cum trebuie.
 
 ### [react](https://reactjs.org/docs/hello-world.html)
 
@@ -86,13 +68,3 @@ Recomandările le vom face pe baza informațiilor din BD.
 - `utils` - Câteva funcții refolosite prin cod
 - `env.example` - fișierul de configurare ce trebuie copiat în `.env.local`
 
-## Sarcini
-
-Acum să trecem la muncă.
-
-1. Completează aplicația cu mai multe detalii (exemple: adaugă mai multe detalii pe search, schimbă lista cu rezultate, adaugă mai multe detalii pe pagina unui film, schimbă design-ul aplicației, etc...)
-2. Implementează watchlist-ul. Utilizatorul trebuie să poată adăuga ușor un film în watchlist, apoi ar trebui să poată vedea aceste filme într-o listă undeva
-3. Implementează istoricul. Asemănător cu watchlist-ul, dar poți adăuga funcționalități noi. De exemplu, atunci când adaugi un film în istoric, îl ștergi din watchlist dacă era acolo. Sau să poți modifica data când ai privit un anumit film (în caz că ți-ai adus aminte că de fapt ai privit un film acum un an și vrei să-l ai frumos în aplicație)
-4. Implementează recomandările. Pagina cu recomandări ar trebui să includă câteva filme sugerate utilizatorului. Aici poți să te bazezi pe watchlist, istoric și TMDB (care are câteva api-uri utile pentru asta). Poți face mai multe tipuri de recomandări
-5. Combină toate funcționalitățile pentru a crea homepage-ul. Aș pune câte o parte din fiecare funcționalitate, de exemplu 3 filme din istoric, 3 filme din watchlist, 3 recomandări, un search rapid, etc...
-6. Bonus. Te provoc să adaugi ceva nou, orice consideri interesant
